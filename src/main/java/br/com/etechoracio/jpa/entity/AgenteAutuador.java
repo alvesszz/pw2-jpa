@@ -38,7 +38,7 @@ public class AgenteAutuador {
 	
 	private TipoAgenteEnum tipo;
 	
-	@Enumerated (EnumType.STRING)
+	@Enumerated (EnumType.ORDINAL)
 	@Column ( name = ("ST_AGENTE"))
 	
 	private StatusAgenteEnum status;
